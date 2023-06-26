@@ -1,0 +1,16 @@
+.navBar {
+    color: red;
+    border: 1px solid red;
+    padding: 50px;
+    background-image: url('/vercel.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.navBar__list {
+    display: inline-block;
+    padding: 2px;
+    &:global(.active) {
+        color: red;
+    }
+}
